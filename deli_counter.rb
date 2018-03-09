@@ -4,13 +4,12 @@ def line(katz_deli)
   if katz_deli.length == 0
     return puts "The line is currently empty."
   end
-
- katz_deli.each do |name, index_number|
-    puts "The line is currently: #{index_number + 1}. #{name}."
+  string_array = []
+  katz_deli.each do |name, index_number|
+  string_array.push
+    puts "The line is currently serving: #{ string_array.join(" ") }"
   end
 end
-
-#puts "The line is currently serving: #{ string_array.join(" ") }"
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
