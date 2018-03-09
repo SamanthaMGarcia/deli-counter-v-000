@@ -2,14 +2,12 @@ katz_deli = []
 
 def line(katz_deli)
   if katz_deli.length == 0
-    return puts "The line is currently empty."
+   puts "The line is currently empty."
   end
-  
   string_array = "The line is currently serving:"
   katz_deli.each do |name, index_number|
     string_array.push(" #{index_number}. #{person}")
   end
-  
   puts string_array
 end
 
