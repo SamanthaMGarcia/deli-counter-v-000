@@ -4,11 +4,7 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-  array = []
-  for (let i = 0; i < katz_deli.length; i++)
-  array.push
-  string = array.join(" ,")
-    puts "The line is currently: " + string
+  
   end
 end
 
