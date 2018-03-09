@@ -4,7 +4,7 @@ def line(katz_deli)
   else
   string_array = "The line is currently serving:"
   katz_deli.each do |name, index_number|
-    string_array.push(" #{index_number}. #{person}")
+    string_array.push(" #{index_number}. #{name}")
   end
   puts string_array
   end
