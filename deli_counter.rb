@@ -7,6 +7,7 @@ def line(katz_deli)
     string_array.push(" #{index_number}. #{person}")
   end
   puts string_array
+  end
 end
 
 def take_a_number(katz_deli, name)
