@@ -2,13 +2,14 @@ katz_deli = []
 
 def line(katz_deli)
   if katz_deli.length == 0
-  puts "The line is currently empty."
-else
+    puts "The line is currently empty."
+  else
   array = []
   for (let i = 0; i < katz_deli.length; i++)
   array.push
   string = array.join(" ,")
-  puts "The line is currently: " + string
+    puts "The line is currently: " + string
+  end
 end
 
 def take_a_number(katz_deli, name)
@@ -23,19 +24,3 @@ now_serving(katz_deli, name)
    puts "Currently serving #{name}."
   end
 end
-
-
-
-function currentLine(katzDeliLine) {
-  if (katzDeliLine.length === 0) {
-    return ("The line is currently empty.")
-  } else {
-    var array = []
-     for (let i = 0; i < katzDeliLine.length ;i++) {
-       // `${i + 1}. ${katzDeliLine[i]}` == "1. Grace"
-      array.push(`${i + 1}. ${katzDeliLine[i]}`)
-     }
-    //array ['1. Ada', '2. Grace', '3. Morty']
-     var string = array.join(', ')
-     // string '1. Ada, 2. Grace'
-    return "The line is currently: " + string
