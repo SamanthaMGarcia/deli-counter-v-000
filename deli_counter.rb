@@ -15,5 +15,4 @@ now_serving(katz_deli, name)
   else katz_deli.shift(name)
    puts "Currently serving #{name}."
   end
-  end
 end
