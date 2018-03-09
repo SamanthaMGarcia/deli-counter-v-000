@@ -6,7 +6,7 @@ def line(katz_deli)
   katz_deli.each.with_index do |name, index_number|
     string_array.push(" #{index_number + 1}. #{name}")
   end
-  puts string_array.join(" ")
+  puts string_array.join("")
   end
 end
 
