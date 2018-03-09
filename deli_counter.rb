@@ -2,7 +2,7 @@ def line(katz_deli)
   if katz_deli.length == 0
    puts "The line is currently empty."
   else
-  string_array = "The line is currently serving:"
+  string_array = ["The line is currently serving:"]
   katz_deli.each do |name, index_number|
     string_array.push(" #{index_number}. #{name}")
   end
